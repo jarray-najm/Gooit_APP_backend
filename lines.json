@@ -1,0 +1,1046 @@
+[
+    {
+        "id": 1,
+        "line_name": "TUN01",
+        "line_number": "1",
+        "line_price": 5.5,
+        "start_time": "08:00 AM",
+        "line_stations_json": [
+            {
+                "id": 1,
+                "nameStation": "Gare Routière de Tunis",
+                "codeStation": "TUN01",
+                "addresseStation": "Tunis"
+            },
+            {
+                "id": 147,
+                "nameStation": "Gare Routière de Ksar Bardo",
+                "codeStation": "TUN07",
+                "addresseStation": "Ksar Bardo, Tunis"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "line_name": "NAB19",
+        "line_number": "19",
+        "line_price": 4.0,
+        "start_time": "09:30 AM",
+        "line_stations_json": [
+            {
+                "id": 142,
+                "nameStation": "Gare Routière de Ain Grenier",
+                "codeStation": "NAB19",
+                "addresseStation": "Ain Grenier, Nabeul"
+            },
+            {
+                "id": 141,
+                "nameStation": "Gare Routière de Menzel Salem",
+                "codeStation": "NAB18",
+                "addresseStation": "Menzel Salem, Nabeul"
+            },
+            {
+                "id": 146,
+                "nameStation": "Gare Routière de Bou Ficha",
+                "codeStation": "NAB23",
+                "addresseStation": "Bou Ficha, Nabeul"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "line_name": "SFA01",
+        "line_number": "S1",
+        "line_price": 6.25,
+        "start_time": "07:45 AM",
+        "line_stations_json": [
+            {
+                "id": 15,
+                "nameStation": "Gare Routière de Sfax",
+                "codeStation": "SFA01",
+                "addresseStation": "Sfax Ville, Sfax"
+            },
+            {
+                "id": 16,
+                "nameStation": "Gare Routière de Sakiet Ezzit",
+                "codeStation": "SFA02",
+                "addresseStation": "Sakiet Ezzit, Sfax"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "line_name": "GAB02",
+        "line_number": "G2",
+        "line_price": 4.75,
+        "start_time": "08:15 AM",
+        "line_stations_json": [
+            {
+                "id": 9,
+                "nameStation": "Gare Routière de Gabès",
+                "codeStation": "GAB01",
+                "addresseStation": "Gabès Ville, Gabès"
+            },
+            {
+                "id": 10,
+                "nameStation": "Gare Routière de Ghannouch",
+                "codeStation": "GAB02",
+                "addresseStation": "Ghannouch, Gabès"
+            }
+        ]
+    },
+     {
+        "id": 5,
+        "line_name": "TAT01",
+        "line_number": "T1",
+        "line_price": 4.5,
+        "start_time": "07:00 AM",
+        "line_stations_json": [
+            {
+                "id": 135,
+                "nameStation": "Gare Routière de Tataouine",
+                "codeStation": "TAT01",
+                "addresseStation": "Tataouine Ville, Tataouine"
+            },
+            {
+                "id": 136,
+                "nameStation": "Gare Routière de Remada",
+                "codeStation": "TAT02",
+                "addresseStation": "Remada, Tataouine"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "line_name": "SOU02",
+        "line_number": "S2",
+        "line_price": 5.0,
+        "start_time": "08:30 AM",
+        "line_stations_json": [
+            {
+                "id": 77,
+                "nameStation": "Gare Routière de Sousse",
+                "codeStation": "SOU01",
+                "addresseStation": "Sousse Ville, Sousse"
+            },
+            {
+                "id": 78,
+                "nameStation": "Gare Routière de El Kantaoui",
+                "codeStation": "SOU02",
+                "addresseStation": "El Kantaoui, Sousse"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "line_name": "TUN03",
+        "line_number": "3",
+        "line_price": 5.75,
+        "start_time": "08:45 AM",
+        "line_stations_json": [
+            {
+                "id": 45,
+                "nameStation": "Gare Routière Bab Saadoun",
+                "codeStation": "TUN01",
+                "addresseStation": "Bab Saadoun, Tunis"
+            },
+            {
+                "id": 47,
+                "nameStation": "Gare Routière Place Barcelone",
+                "codeStation": "TUN03",
+                "addresseStation": "Place Barcelone, Tunis"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "line_name": "SID02",
+        "line_number": "S2",
+        "line_price": 4.25,
+        "start_time": "07:15 AM",
+        "line_stations_json": [
+            {
+                "id": 35,
+                "nameStation": "Gare Routière de Sidi Bouzid",
+                "codeStation": "SID01",
+                "addresseStation": "Sidi Bouzid Ville, Sidi Bouzid"
+            },
+            {
+                "id": 36,
+                "nameStation": "Gare Routière de Meknassy",
+                "codeStation": "SID02",
+                "addresseStation": "Meknassy, Sidi Bouzid"
+            }
+        ]
+    },{
+        "id": 9,
+        "line_name": "GAF01",
+        "line_number": "G1",
+        "line_price": 5.0,
+        "start_time": "07:00 AM",
+        "line_stations_json": [
+            {
+                "id": 11,
+                "nameStation": "Gare Routière de Gafsa",
+                "codeStation": "GAF01",
+                "addresseStation": "Gafsa Ville, Gafsa"
+            },
+            {
+                "id": 12,
+                "nameStation": "Gare Routière de Métlaoui",
+                "codeStation": "GAF02",
+                "addresseStation": "Métlaoui, Gafsa"
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "line_name": "GAB01",
+        "line_number": "G1",
+        "line_price": 5.25,
+        "start_time": "08:30 AM",
+        "line_stations_json": [
+            {
+                "id": 9,
+                "nameStation": "Gare Routière de Gabès",
+                "codeStation": "GAB01",
+                "addresseStation": "Gabès Ville, Gabès"
+            },
+            {
+                "id": 10,
+                "nameStation": "Gare Routière de Ghannouch",
+                "codeStation": "GAB02",
+                "addresseStation": "Ghannouch, Gabès"
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "line_name": "GAF02",
+        "line_number": "G2",
+        "line_price": 4.75,
+        "start_time": "08:15 AM",
+        "line_stations_json": [
+            {
+                "id": 11,
+                "nameStation": "Gare Routière de Gafsa",
+                "codeStation": "GAF01",
+                "addresseStation": "Gafsa Ville, Gafsa"
+            },
+            {
+                "id": 12,
+                "nameStation": "Gare Routière de Métlaoui",
+                "codeStation": "GAF02",
+                "addresseStation": "Métlaoui, Gafsa"
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "line_name": "JEN01",
+        "line_number": "J1",
+        "line_price": 4.5,
+        "start_time": "07:30 AM",
+        "line_stations_json": [
+            {
+                "id": 13,
+                "nameStation": "Gare Routière de Jendouba",
+                "codeStation": "JEN01",
+                "addresseStation": "Jendouba Ville, Jendouba"
+            },
+            {
+                "id": 14,
+                "nameStation": "Gare Routière de Tabarka",
+                "codeStation": "JEN02",
+                "addresseStation": "Tabarka, Jendouba"
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "line_name": "KAI01",
+        "line_number": "K1",
+        "line_price": 6.0,
+        "start_time": "07:45 AM",
+        "line_stations_json": [
+            {
+                "id": 15,
+                "nameStation": "Gare Routière de Kairouan",
+                "codeStation": "KAI01",
+                "addresseStation": "Kairouan Ville, Kairouan"
+            },
+            {
+                "id": 16,
+                "nameStation": "Gare Routière de Sbikha",
+                "codeStation": "KAI02",
+                "addresseStation": "Sbikha, Kairouan"
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "line_name": "KAS01",
+        "line_number": "K1",
+        "line_price": 5.5,
+        "start_time": "08:00 AM",
+        "line_stations_json": [
+            {
+                "id": 17,
+                "nameStation": "Gare Routière de Kasserine",
+                "codeStation": "KAS01",
+                "addresseStation": "Kasserine Ville, Kasserine"
+            },
+            {
+                "id": 18,
+                "nameStation": "Gare Routière de Sbeitla",
+                "codeStation": "KAS02",
+                "addresseStation": "Sbeitla, Kasserine"
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "line_name": "KEB01",
+        "line_number": "K1",
+        "line_price": 5.75,
+        "start_time": "08:15 AM",
+        "line_stations_json": [
+            {
+                "id": 19,
+                "nameStation": "Gare Routière de Kebili",
+                "codeStation": "KEB01",
+                "addresseStation": "Kebili Ville, Kebili"
+            },
+            {
+                "id": 20,
+                "nameStation": "Gare Routière de Douz",
+                "codeStation": "KEB02",
+                "addresseStation": "Douz, Kebili"
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "line_name": "KEF01",
+        "line_number": "K1",
+        "line_price": 6.25,
+        "start_time": "07:30 AM",
+        "line_stations_json": [
+            {
+                "id": 21,
+                "nameStation": "Gare Routière de Kef",
+                "codeStation": "KEF01",
+                "addresseStation": "Kef Ville, Kef"
+            },
+            {
+                "id": 22,
+                "nameStation": "Gare Routière de Dahmani",
+                "codeStation": "KEF02",
+                "addresseStation": "Dahmani, Kef"
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "line_name": "MAH01",
+        "line_number": "M1",
+        "line_price": 5.0,
+        "start_time": "08:45 AM",
+        "line_stations_json": [
+            {
+                "id": 23,
+                "nameStation": "Gare Routière de Mahdia",
+                "codeStation": "MAH01",
+                "addresseStation": "Mahdia Ville, Mahdia"
+            },
+            {
+                "id": 24,
+                "nameStation": "Gare Routière de Chebba",
+                "codeStation": "MAH02",
+                "addresseStation": "Chebba, Mahdia"
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "line_name": "MAN01",
+        "line_number": "M1",
+        "line_price": 4.75,
+        "start_time": "07:00 AM",
+        "line_stations_json": [
+            {
+                "id": 25,
+                "nameStation": "Gare Routière de Manouba",
+                "codeStation": "MAN01",
+                "addresseStation": "Manouba Ville, Manouba"
+            },
+            {
+                "id": 26,
+                "nameStation": "Gare Routière de Douar Hicher",
+                "codeStation": "MAN02",
+                "addresseStation": "Douar Hicher, Manouba"
+            }
+        ]
+    },
+    {
+        "id": 19,
+        "line_name": "MED01",
+        "line_number": "M1",
+        "line_price": 5.5,
+        "start_time": "09:30 AM",
+        "line_stations_json": [
+            {
+                "id": 27,
+                "nameStation": "Gare Routière de Medenine",
+                "codeStation": "MED01",
+                "addresseStation": "Medenine Ville, Medenine"
+            },
+            {
+                "id": 28,
+                "nameStation": "Gare Routière de Zarzis",
+                "codeStation": "MED02",
+                "addresseStation": "Zarzis, Medenine"
+            }
+        ]
+    },
+    {
+        "id": 20,
+        "line_name": "MON01",
+        "line_number": "M1",
+        "line_price": 4.25,
+        "start_time": "07:15 AM",
+        "line_stations_json": [
+            {
+                "id": 29,
+                "nameStation": "Gare Routière de Monastir",
+                "codeStation": "MON01",
+                "addresseStation": "Monastir Ville, Monastir"
+            },
+            {
+                "id": 30,
+                "nameStation": "Gare Routière de Skanes",
+                "codeStation": "MON02",
+                "addresseStation": "Skanes, Monastir"
+            }
+        ]
+    },
+    {
+        "id": 21,
+        "line_name": "NAB01",
+        "line_number": "N1",
+        "line_price": 5.75,
+        "start_time": "08:30 AM",
+        "line_stations_json": [
+            {
+                "id": 31,
+                "nameStation": "Gare Routière de Nabeul",
+                "codeStation": "NAB01",
+                "addresseStation": "Nabeul Ville, Nabeul"
+            },
+            {
+                "id": 32,
+                "nameStation": "Gare Routière de Hammamet",
+                "codeStation": "NAB02",
+                "addresseStation": "Hammamet, Nabeul"
+            }
+        ]
+    },
+    {
+        "id": 22,
+        "line_name": "SFAX1",
+        "line_number": "S1",
+        "line_price": 4.5,
+        "start_time": "08:45 AM",
+        "line_stations_json": [
+            {
+                "id": 33,
+                "nameStation": "Gare Routière de Sfax",
+                "codeStation": "SFAX1",
+                "addresseStation": "Sfax Ville, Sfax"
+            },
+            {
+                "id": 34,
+                "nameStation": "Gare Routière de El Jem",
+                "codeStation": "SFAX2",
+                "addresseStation": "El Jem, Sfax"
+            }
+        ]
+    },
+    {
+        "id": 23,
+        "line_name": "SIL01",
+        "line_number": "S1",
+        "line_price": 4.0,
+        "start_time": "09:00 AM",
+        "line_stations_json": [
+            {
+                "id": 37,
+                "nameStation": "Gare Routière de Siliana",
+                "codeStation": "SIL01",
+                "addresseStation": "Siliana Ville, Siliana"
+            },
+            {
+                "id": 38,
+                "nameStation": "Gare Routière de Rouhia",
+                "codeStation": "SIL02",
+                "addresseStation": "Rouhia, Siliana"
+            }
+        ]
+    },
+    {
+        "id": 24,
+        "line_name": "SOUS1",
+        "line_number": "S1",
+        "line_price": 5.25,
+        "start_time": "07:30 AM",
+        "line_stations_json": [
+            {
+                "id": 39,
+                "nameStation": "Gare Routière de Sousse",
+                "codeStation": "SOUS1",
+                "addresseStation": "Sousse Ville, Sousse"
+            },
+            {
+                "id": 40,
+                "nameStation": "Gare Routière de M'saken",
+                "codeStation": "SOUS2",
+                "addresseStation": "M'saken, Sousse"
+            }
+        ]
+    },
+    {
+        "id": 25,
+        "line_name": "TAT01",
+        "line_number": "T1",
+        "line_price": 4.5,
+        "start_time": "07:00 AM",
+        "line_stations_json": [
+            {
+                "id": 135,
+                "nameStation": "Gare Routière de Tataouine",
+                "codeStation": "TAT01",
+                "addresseStation": "Tataouine Ville, Tataouine"
+            },
+            {
+                "id": 136,
+                "nameStation": "Gare Routière de Remada",
+                "codeStation": "TAT02",
+                "addresseStation": "Remada, Tataouine"
+            }
+        ]
+    },
+    {
+        "id": 26,
+        "line_name": "TUN03",
+        "line_number": "3",
+        "line_price": 5.75,
+        "start_time": "08:45 AM",
+        "line_stations_json": [
+            {
+                "id": 45,
+                "nameStation": "Gare Routière Bab Saadoun",
+                "codeStation": "TUN01",
+                "addresseStation": "Bab Saadoun, Tunis"
+            },
+            {
+                "id": 47,
+                "nameStation": "Gare Routière Place Barcelone",
+                "codeStation": "TUN03",
+                "addresseStation": "Place Barcelone, Tunis"
+            }
+        ]
+    },
+    {
+        "id": 27,
+        "line_name": "TUN01",
+        "line_number": "1",
+        "line_price": 5.5,
+        "start_time": "08:00 AM",
+        "line_stations_json": [
+            {
+                "id": 1,
+                "nameStation": "Gare Routière de Tunis",
+                "codeStation": "TUN01",
+                "addresseStation": "Tunis"
+            },
+            {
+                "id": 147,
+                "nameStation": "Gare Routière de Ksar Bardo",
+                "codeStation": "TUN07",
+                "addresseStation": "Ksar Bardo, Tunis"
+            }
+        ]
+    },
+    {
+        "id": 28,
+        "line_name": "KAS01",
+        "line_number": "K1",
+        "line_price": 5.5,
+        "start_time": "08:00 AM",
+        "line_stations_json": [
+            {
+                "id": 17,
+                "nameStation": "Gare Routière de Kasserine",
+                "codeStation": "KAS01",
+                "addresseStation": "Kasserine Ville, Kasserine"
+            },
+            {
+                "id": 18,
+                "nameStation": "Gare Routière de Sbeitla",
+                "codeStation": "KAS02",
+                "addresseStation": "Sbeitla, Kasserine"
+            }
+        ]
+    },
+    {
+        "id": 29,
+        "line_name": "KAI01",
+        "line_number": "K1",
+        "line_price": 6.0,
+        "start_time": "07:45 AM",
+        "line_stations_json": [
+            {
+                "id": 15,
+                "nameStation": "Gare Routière de Kairouan",
+                "codeStation": "KAI01",
+                "addresseStation": "Kairouan Ville, Kairouan"
+            },
+            {
+                "id": 16,
+                "nameStation": "Gare Routière de Sbikha",
+                "codeStation": "KAI02",
+                "addresseStation": "Sbikha, Kairouan"
+            }
+        ]
+    },
+    {
+        "id": 30,
+        "line_name": "GAB02",
+        "line_number": "G2",
+        "line_price": 4.75,
+        "start_time": "08:15 AM",
+        "line_stations_json": [
+            {
+                "id": 9,
+                "nameStation": "Gare Routière de Gabès",
+                "codeStation": "GAB01",
+                "addresseStation": "Gabès Ville, Gabès"
+            },
+            {
+                "id": 10,
+                "nameStation": "Gare Routière de Ghannouch",
+                "codeStation": "GAB02",
+                "addresseStation": "Ghannouch, Gabès"
+            }
+        ]
+    },
+    {
+        "id": 31,
+        "line_name": "MAH01",
+        "line_number": "M1",
+        "line_price": 5.0,
+        "start_time": "08:45 AM",
+        "line_stations_json": [
+            {
+                "id": 23,
+                "nameStation": "Gare Routière de Mahdia",
+                "codeStation": "MAH01",
+                "addresseStation": "Mahdia Ville, Mahdia"
+            },
+            {
+                "id": 24,
+                "nameStation": "Gare Routière de Chebba",
+                "codeStation": "MAH02",
+                "addresseStation": "Chebba, Mahdia"
+            }
+        ]
+    },
+    {
+        "id": 32,
+        "line_name": "MAN01",
+        "line_number": "M1",
+        "line_price": 4.75,
+        "start_time": "07:00 AM",
+        "line_stations_json": [
+            {
+                "id": 25,
+                "nameStation": "Gare Routière de Manouba",
+                "codeStation": "MAN01",
+                "addresseStation": "Manouba Ville, Manouba"
+            },
+            {
+                "id": 26,
+                "nameStation": "Gare Routière de Douar Hicher",
+                "codeStation": "MAN02",
+                "addresseStation": "Douar Hicher, Manouba"
+            }
+        ]
+    },
+    {
+        "id": 33,
+        "line_name": "MED01",
+        "line_number": "M1",
+        "line_price": 5.5,
+        "start_time": "09:30 AM",
+        "line_stations_json": [
+            {
+                "id": 27,
+                "nameStation": "Gare Routière de Medenine",
+                "codeStation": "MED01",
+                "addresseStation": "Medenine Ville, Medenine"
+            },
+            {
+                "id": 28,
+                "nameStation": "Gare Routière de Zarzis",
+                "codeStation": "MED02",
+                "addresseStation": "Zarzis, Medenine"
+            }
+        ]
+    },
+    {
+        "id": 34,
+        "line_name": "MON01",
+        "line_number": "M1",
+        "line_price": 4.25,
+        "start_time": "07:15 AM",
+        "line_stations_json": [
+            {
+                "id": 29,
+                "nameStation": "Gare Routière de Monastir",
+                "codeStation": "MON01",
+                "addresseStation": "Monastir Ville, Monastir"
+            },
+            {
+                "id": 30,
+                "nameStation": "Gare Routière de Skanes",
+                "codeStation": "MON02",
+                "addresseStation": "Skanes, Monastir"
+            }
+        ]
+    },
+    {
+        "id": 35,
+        "line_name": "NAB19",
+        "line_number": "19",
+        "line_price": 4.0,
+        "start_time": "09:30 AM",
+        "line_stations_json": [
+            {
+                "id": 142,
+                "nameStation": "Gare Routière de Ain Grenier",
+                "codeStation": "NAB19",
+                "addresseStation": "Ain Grenier, Nabeul"
+            },
+            {
+                "id": 141,
+                "nameStation": "Gare Routière de Menzel Salem",
+                "codeStation": "NAB18",
+                "addresseStation": "Menzel Salem, Nabeul"
+            },
+            {
+                "id": 146,
+                "nameStation": "Gare Routière de Bou Ficha",
+                "codeStation": "NAB23",
+                "addresseStation": "Bou Ficha, Nabeul"
+            }
+        ]
+    },
+    {
+        "id": 36,
+        "line_name": "SFA01",
+        "line_number": "S1",
+        "line_price": 6.25,
+        "start_time": "07:45 AM",
+        "line_stations_json": [
+            {
+                "id": 15,
+                "nameStation": "Gare Routière de Sfax",
+                "codeStation": "SFA01",
+                "addresseStation": "Sfax Ville, Sfax"
+            },
+            {
+                "id": 16,
+                "nameStation": "Gare Routière de Sakiet Ezzit",
+                "codeStation": "SFA02",
+                "addresseStation": "Sakiet Ezzit, Sfax"
+            }
+        ]
+    },
+    {
+        "id": 37,
+        "line_name": "SID02",
+        "line_number": "S2",
+        "line_price": 4.25,
+        "start_time": "07:15 AM",
+        "line_stations_json": [
+            {
+                "id": 35,
+                "nameStation": "Gare Routière de Sidi Bouzid",
+                "codeStation": "SID01",
+                "addresseStation": "Sidi Bouzid Ville, Sidi Bouzid"
+            },
+            {
+                "id": 36,
+                "nameStation": "Gare Routière de Meknassy",
+                "codeStation": "SID02",
+                "addresseStation": "Meknassy, Sidi Bouzid"
+            }
+        ]
+    },
+    {
+        "id": 38,
+        "line_name": "SOU02",
+        "line_number": "S2",
+        "line_price": 5.0,
+        "start_time": "08:30 AM",
+        "line_stations_json": [
+            {
+                "id": 77,
+                "nameStation": "Gare Routière de Sousse",
+                "codeStation": "SOU01",
+                "addresseStation": "Sousse Ville, Sousse"
+            },
+            {
+                "id": 78,
+                "nameStation": "Gare Routière de El Kantaoui",
+                "codeStation": "SOU02",
+                "addresseStation": "El Kantaoui, Sousse"
+            }
+        ]
+    },
+    {
+        "id": 39,
+        "line_name": "TUN03",
+        "line_number": "3",
+        "line_price": 5.75,
+        "start_time": "08:45 AM",
+        "line_stations_json": [
+            {
+                "id": 45,
+                "nameStation": "Gare Routière Bab Saadoun",
+                "codeStation": "TUN01",
+                "addresseStation": "Bab Saadoun, Tunis"
+            },
+            {
+                "id": 47,
+                "nameStation": "Gare Routière Place Barcelone",
+                "codeStation": "TUN03",
+                "addresseStation": "Place Barcelone, Tunis"
+            }
+        ]
+    },
+    {
+        "id": 40,
+        "line_name": "SID02",
+        "line_number": "S2",
+        "line_price": 4.25,
+        "start_time": "07:15 AM",
+        "line_stations_json": [
+            {
+                "id": 35,
+                "nameStation": "Gare Routière de Sidi Bouzid",
+                "codeStation": "SID01",
+                "addresseStation": "Sidi Bouzid Ville, Sidi Bouzid"
+            },
+            {
+                "id": 36,
+                "nameStation": "Gare Routière de Meknassy",
+                "codeStation": "SID02",
+                "addresseStation": "Meknassy, Sidi Bouzid"
+            }
+        ]
+    }, {
+        "id": 41,
+        "line_name": "GAB03",
+        "line_number": "G3",
+        "line_price": 4.8,
+        "start_time": "07:45 AM",
+        "line_stations_json": [
+            {
+                "id": 11,
+                "nameStation": "Gare Routière de Gabès",
+                "codeStation": "GAB01",
+                "addresseStation": "Gabès Ville, Gabès"
+            },
+            {
+                "id": 12,
+                "nameStation": "Gare Routière de Medenine",
+                "codeStation": "GAB02",
+                "addresseStation": "Medenine, Gabès"
+            },
+            {
+                "id": 13,
+                "nameStation": "Gare Routière de Zarzis",
+                "codeStation": "GAB03",
+                "addresseStation": "Zarzis, Gabès"
+            }
+        ]
+    },
+    {
+        "id": 42,
+        "line_name": "NAB20",
+        "line_number": "20",
+        "line_price": 4.5,
+        "start_time": "09:00 AM",
+        "line_stations_json": [
+            {
+                "id": 148,
+                "nameStation": "Gare Routière de Kelibia",
+                "codeStation": "NAB20",
+                "addresseStation": "Kelibia, Nabeul"
+            },
+            {
+                "id": 149,
+                "nameStation": "Gare Routière de Haouaria",
+                "codeStation": "NAB21",
+                "addresseStation": "Haouaria, Nabeul"
+            }
+        ]
+    },
+    {
+        "id": 43,
+        "line_name": "SFA03",
+        "line_number": "S3",
+        "line_price": 5.5,
+        "start_time": "08:30 AM",
+        "line_stations_json": [
+            {
+                "id": 17,
+                "nameStation": "Gare Routière de Sfax",
+                "codeStation": "SFA01",
+                "addresseStation": "Sfax Ville, Sfax"
+            },
+            {
+                "id": 18,
+                "nameStation": "Gare Routière de Mahres",
+                "codeStation": "SFA03",
+                "addresseStation": "Mahres, Sfax"
+            }
+        ]
+    },
+    {
+        "id": 44,
+        "line_name": "SOU03",
+        "line_number": "S3",
+        "line_price": 5.25,
+        "start_time": "07:30 AM",
+        "line_stations_json": [
+            {
+                "id": 79,
+                "nameStation": "Gare Routière de Sousse",
+                "codeStation": "SOU01",
+                "addresseStation": "Sousse Ville, Sousse"
+            },
+            {
+                "id": 80,
+                "nameStation": "Gare Routière de Kalâa Kebira",
+                "codeStation": "SOU03",
+                "addresseStation": "Kalâa Kebira, Sousse"
+            }
+        ]
+    },
+    {
+        "id": 45,
+        "line_name": "TUN04",
+        "line_number": "4",
+        "line_price": 5.0,
+        "start_time": "08:15 AM",
+        "line_stations_json": [
+            {
+                "id": 48,
+                "nameStation": "Gare Routière Bab Saadoun",
+                "codeStation": "TUN01",
+                "addresseStation": "Bab Saadoun, Tunis"
+            },
+            {
+                "id": 49,
+                "nameStation": "Gare Routière El Omrane",
+                "codeStation": "TUN04",
+                "addresseStation": "El Omrane, Tunis"
+            }
+        ]
+    },{
+        "id": 46,
+        "line_name": "KEF03",
+        "line_number": "K3",
+        "line_price": 4.0,
+        "start_time": "07:00 AM",
+        "line_stations_json": [
+            {
+                "id": 23,
+                "nameStation": "Gare Routière de Kef",
+                "codeStation": "KEF01",
+                "addresseStation": "Kef Ville, Kef"
+            },
+            {
+                "id": 24,
+                "nameStation": "Gare Routière de Dahmani",
+                "codeStation": "KEF02",
+                "addresseStation": "Dahmani, Kef"
+            }
+        ]
+    },
+    {
+        "id": 47,
+        "line_name": "ZAG03",
+        "line_number": "Z3",
+        "line_price": 4.5,
+        "start_time": "08:30 AM",
+        "line_stations_json": [
+            {
+                "id": 48,
+                "nameStation": "Gare Routière de Zaghouan",
+                "codeStation": "ZAG01",
+                "addresseStation": "Zaghouan Ville, Zaghouan"
+            },
+            {
+                "id": 49,
+                "nameStation": "Gare Routière de Zriba",
+                "codeStation": "ZAG02",
+                "addresseStation": "Zriba, Zaghouan"
+            }
+        ]
+    },
+    {
+        "id": 48,
+        "line_name": "KEB03",
+        "line_number": "K3",
+        "line_price": 5.0,
+        "start_time": "08:00 AM",
+        "line_stations_json": [
+            {
+                "id": 19,
+                "nameStation": "Gare Routière de Kebili",
+                "codeStation": "KEB01",
+                "addresseStation": "Kebili Ville, Kebili"
+            },
+            {
+                "id": 20,
+                "nameStation": "Gare Routière de Douz",
+                "codeStation": "KEB02",
+                "addresseStation": "Douz, Kebili"
+            }
+        ]
+    },
+    {
+        "id": 49,
+        "line_name": "SIL03",
+        "line_number": "S3",
+        "line_price": 4.75,
+        "start_time": "07:45 AM",
+        "line_stations_json": [
+            {
+                "id": 37,
+                "nameStation": "Gare Routière de Siliana",
+                "codeStation": "SIL01",
+                "addresseStation": "Siliana Ville, Siliana"
+            },
+            {
+                "id": 38,
+                "nameStation": "Gare Routière de Makthar",
+                "codeStation": "SIL02",
+                "addresseStation": "Makthar, Siliana"
+            }
+        ]
+    }
+]

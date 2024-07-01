@@ -1,0 +1,344 @@
+{
+	"info": {
+		"_postman_id": "d487a18b-c451-4728-b053-10a3c0d06980",
+		"name": "userApp",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21950432"
+	},
+	"item": [
+		{
+			"name": "get user by id",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "put user",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 2,\r\n    \"username\": \"Najm Jarray\",\r\n    \"email\": \"Najm.jarray@example.com\",\r\n    \"password\": \"$2b$10$4fhDn1DRT7uTL3bSFo2wHuWPE6f7V80fSYpZs9LoG/UTA83zrXPWe\",\r\n    \"role\": \"admin\",\r\n    \"createdAt\": \"2024-06-10T18:04:58.827Z\",\r\n    \"updatedAt\": \"2024-06-10T18:04:58.827Z\",\r\n    \"trips\": [],\r\n    \"payments\": [],\r\n    \"balanceBooks\": [],\r\n    \"balance\": null\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4040/api/v1/users/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4040",
+					"path": [
+						"api",
+						"v1",
+						"users",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete user",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 2,\r\n    \"username\": \"Najm Jarray\",\r\n    \"email\": \"Najm.jarray@example.com\",\r\n    \"password\": \"$2b$10$4fhDn1DRT7uTL3bSFo2wHuWPE6f7V80fSYpZs9LoG/UTA83zrXPWe\",\r\n    \"role\": \"admin\",\r\n    \"createdAt\": \"2024-06-10T18:04:58.827Z\",\r\n    \"updatedAt\": \"2024-06-10T18:04:58.827Z\",\r\n    \"trips\": [],\r\n    \"payments\": [],\r\n    \"balanceBooks\": [],\r\n    \"balance\": null\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4040/api/v1/users/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4040",
+					"path": [
+						"api",
+						"v1",
+						"users",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get payment by user_id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4040/api/v1/users/1/payments",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4040",
+					"path": [
+						"api",
+						"v1",
+						"users",
+						"1",
+						"payments"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get all Lines",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 2,\r\n    \"username\": \"Najm Jarray\",\r\n    \"email\": \"Najm.jarray@example.com\",\r\n    \"password\": \"$2b$10$4fhDn1DRT7uTL3bSFo2wHuWPE6f7V80fSYpZs9LoG/UTA83zrXPWe\",\r\n    \"role\": \"admin\",\r\n    \"createdAt\": \"2024-06-10T18:04:58.827Z\",\r\n    \"updatedAt\": \"2024-06-10T18:04:58.827Z\",\r\n    \"trips\": [],\r\n    \"payments\": [],\r\n    \"balanceBooks\": [],\r\n    \"balance\": null\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4040/api/v1/users/trips/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4040",
+					"path": [
+						"api",
+						"v1",
+						"users",
+						"trips",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get all stations",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 2,\r\n    \"username\": \"Najm Jarray\",\r\n    \"email\": \"Najm.jarray@example.com\",\r\n    \"password\": \"$2b$10$4fhDn1DRT7uTL3bSFo2wHuWPE6f7V80fSYpZs9LoG/UTA83zrXPWe\",\r\n    \"role\": \"admin\",\r\n    \"createdAt\": \"2024-06-10T18:04:58.827Z\",\r\n    \"updatedAt\": \"2024-06-10T18:04:58.827Z\",\r\n    \"trips\": [],\r\n    \"payments\": [],\r\n    \"balanceBooks\": [],\r\n    \"balance\": null\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4040/api/v1/users/trips/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4040",
+					"path": [
+						"api",
+						"v1",
+						"users",
+						"trips",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add trips",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"user_id\": 1,\r\n  \"trip_name\": \"Morning Commute\",\r\n  \"date\": \"2024-06-20\",\r\n  \"start_code_station\":  \"K123\",\r\n  \"end_code_station\":  \"TS23\"\r\n \r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4040/api/v1/users/trips",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4040",
+					"path": [
+						"api",
+						"v1",
+						"users",
+						"trips"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get trips",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 2,\r\n    \"username\": \"Najm Jarray\",\r\n    \"email\": \"Najm.jarray@example.com\",\r\n    \"password\": \"$2b$10$4fhDn1DRT7uTL3bSFo2wHuWPE6f7V80fSYpZs9LoG/UTA83zrXPWe\",\r\n    \"role\": \"admin\",\r\n    \"createdAt\": \"2024-06-10T18:04:58.827Z\",\r\n    \"updatedAt\": \"2024-06-10T18:04:58.827Z\",\r\n    \"trips\": [],\r\n    \"payments\": [],\r\n    \"balanceBooks\": [],\r\n    \"balance\": null\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4040/api/v1/users/trips/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4040",
+					"path": [
+						"api",
+						"v1",
+						"users",
+						"trips",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "balance recharge",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"user_id\": 1,\r\n    \"amount\": 9.99\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4040/api/v1/users/trips/payment",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4040",
+					"path": [
+						"api",
+						"v1",
+						"users",
+						"trips",
+						"payment"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "payments trips",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"user_id\": 1,\r\n    \"amount\": 9.99\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4040/api/v1/users/trips/payment",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4040",
+					"path": [
+						"api",
+						"v1",
+						"users",
+						"trips",
+						"payment"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getbu line_number",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"line_name\": \"KS Line\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4040/api/v1/users/lines/line_name?line_name=KS%20Line",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4040",
+					"path": [
+						"api",
+						"v1",
+						"users",
+						"lines",
+						"line_name"
+					],
+					"query": [
+						{
+							"key": "line_name",
+							"value": "KS%20Line"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
