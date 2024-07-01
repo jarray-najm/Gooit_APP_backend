@@ -154,8 +154,13 @@ exports.addLine = async (req, res) => {
 exports.editLine = async (req, res) => {
   try {
     const { id } = req.params;
-    const { line_name, line_number, line_price, start_time, stations_json } =
-      req.body;
+    const {
+      line_name,
+      line_number,
+      line_price,
+      start_time,
+      line_stations_json,
+    } = req.body;
     const line = await Line.findByPk(id);
     if (!line) {
       return res.status(404).json({ error: "Line not found" });
@@ -164,7 +169,7 @@ exports.editLine = async (req, res) => {
     line.line_number = line_number;
     line.line_price = line_price;
     line.start_time = start_time;
-    line.stations_json = stations_json;
+    line.line_stations_json = line_stations_json;
     await line.save();
     res.json({ message: "Line updated successfully!", line });
   } catch (error) {
