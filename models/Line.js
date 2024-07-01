@@ -35,10 +35,10 @@ const Line = sequelize.define("Line", {
     },
   },
   start_time: {
-    type: DataTypes.TIME,
+    type: DataTypes.DATE,
     allowNull: false,
     validate: {
-      // isDate: true, // ensures the value is a valid date/time
+      isDate: true, // ensures the value is a valid date/time
     },
   },
   line_stations_json: {
