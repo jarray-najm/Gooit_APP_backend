@@ -12,25 +12,25 @@ const Station = sequelize.define("Station", {
     type: DataTypes.STRING,
     allowNull: false,
     validate: {
-      notEmpty: true,
-      len: [1, 100],
+      notEmpty: true, // ensures the value is not an empty string
+      len: [1, 100], // ensures the value length is between 1 and 100 characters
     },
   },
   codeStation: {
     type: DataTypes.STRING,
     allowNull: false,
-    unique: true,
+    unique: true, // ensures the value is unique
     validate: {
-      notEmpty: true,
-      len: [1, 50],
+      notEmpty: true, // ensures the value is not an empty string
+      len: [1, 50], // ensures the value length is between 1 and 50 characters
     },
   },
   addresseStation: {
     type: DataTypes.STRING,
     allowNull: false,
     validate: {
-      notEmpty: true,
-      len: [1, 200],
+      notEmpty: true, // ensures the value is not an empty string
+      len: [1, 200], // ensures the value length is between 1 and 200 characters
     },
   },
 });

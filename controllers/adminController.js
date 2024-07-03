@@ -26,6 +26,7 @@ exports.addStation = async (req, res) => {
     if (error.name === "SequelizeValidationError") {
       // Send detailed validation error messages
       const messages = error.errors.map((e) => e.message);
+      console.log(messages);
       res.status(400).json({ error: "Validation error", messages });
     } else {
       res.status(500).json({ error: error.message });
