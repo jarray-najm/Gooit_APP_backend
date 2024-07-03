@@ -14,6 +14,7 @@ exports.getAllUsers = async (req, res) => {
 };
 
 // Add a new station
+// Add a new station
 exports.addStation = async (req, res) => {
   try {
     const { nameStation, codeStation, addresseStation } = req.body;
@@ -24,7 +25,13 @@ exports.addStation = async (req, res) => {
     });
     res.status(201).json({ message: "Station created successfully!", station });
   } catch (error) {
-    res.status(500).json({ error: error.message });
+    if (error.name === "SequelizeValidationError") {
+      // Send detailed validation error messages
+      const messages = error.errors.map((e) => e.message);
+      res.status(400).json({ error: "Validation error", messages });
+    } else {
+      res.status(500).json({ error: error.message });
+    }
   }
 };
 
