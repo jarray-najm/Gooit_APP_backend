@@ -13,8 +13,6 @@ exports.getAllUsers = async (req, res) => {
   }
 };
 
-// Add a new station
-// Add a new station
 exports.addStation = async (req, res) => {
   try {
     const { nameStation, codeStation, addresseStation } = req.body;
