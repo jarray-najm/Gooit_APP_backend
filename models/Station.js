@@ -22,7 +22,7 @@ const Station = sequelize.define("Station", {
     unique: true, // ensures the value is unique
     validate: {
       notEmpty: true, // ensures the value is not an empty string
-      len: [1, 50], // ensures the value length is between 1 and 50 characters
+      len: [1, 100], // ensures the value length is between 1 and 50 characters
     },
   },
   addresseStation: {
